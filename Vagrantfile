@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
     if [[ ! -d /vagrant/wiki.rockylinux.org/docs ]]; then
       if [[ ! -d /vagrant/wiki.rockylinux.org ]]; then
         pushd /vagrant
-        git clone https://github.com/rockylinux/wiki.rockylinux.org
+        git clone https://github.com/rocky-linux/wiki.rockylinux.org
         popd
       fi
     fi
